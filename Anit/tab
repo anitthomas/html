@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border ="border" align ="center" width="100" height="50">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="phone" size="10" maxlength="5" ></td>
+        </tr>
+        
+<tr>
+    <td width="20"><input type="checkbox" name="hobbies" value="music">music</td>
+    <td><input type="checkbox" name="hobbies" value="dancing">dancing</td>
+    <td><input type="checkbox" name="hobbies" value="tv">tv</td>
+    <td><input type="checkbox" name="hobbies" value="sleeping">sleeping</td>
+
+</tr>
+<tr>
+    <td><input type="radio" name="age value="100></td>
+</tr>
+</body>
+</html>
