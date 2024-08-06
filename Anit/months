@@ -33,7 +33,12 @@
             <option value ="dec"></option>
         </datalist>
     </p>
-
+<figure>
+    <img src="catimg.jpg" width="100" height="100" alt="Cat Image">
+    <figcaption>A cute kitten looking at you!!
+        <a href="https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&w=600"><br>Kitten</a>
+    </figcaption>
+</figure>
    
 </body>
 </html>
