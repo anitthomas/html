@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">Javascript</a> |
+        <a href="/Python/">Python</a> |
+    </nav>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <p>
+        <label for ="txtlist">Birthmonth:</label>
+        <input type="text" id="txtlist" placeholder="Select Month" list="months"/>
+        <datalist id ="months">
+            <option value ="January"></option>
+            <option value ="Feb"></option>
+            <option value ="Mar"></option>
+            <option value ="Apri"></option>
+            <option value ="May"></option>
+            <option value ="Jun"></option>
+            <option value ="Jul"></option>
+            <option value ="Aug"></option>
+            <option value ="Sept"></option>
+            <option value ="Oct"></option>
+            <option value ="Nov"></option>
+            <option value ="dec"></option>
+        </datalist>
+    </p>
+
+   
+</body>
+</html>
