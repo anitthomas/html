@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <textarea name="aspirations" rows="3" cols="40" wrap="hard"  required>
+                Enter your message
+            </textarea>
+        </p>
+    <input type="submit" value="Submit"/>
+    <input type="reset" value="reset"/>
+
+    <input type="button" name="button" value="Mybutton"><br>
+    <input type="color" name="color" value="select color"><br>
+    <input type="date" name="date" value="date"><br><br>
+    <input type="label" name="email" value="email"><br><br>
+    <input type="file" name="file" value="file" required><br><br>
+    <input type="range" name="range" value="range"><br><br>
+    <input type="tel" name="tel" value="tel" autofocus><br><br>
+    <input type="date" name="date" value="date" required><br><br>
+    <input type="datetime" name="datetime" value="datetime" required autocomplete="on"><br><br>
+    <input type="email" name="email"  placeholder="abc@gmail.com" autocomplete="on"><br><br>
+    <input type="week" name="week" value="week"><br><br>
+    <input type="time" name="time" value="time"><br><br>
+    Username:<input type="text" name="uname"><br>
+    <br>
+    Password:<input type="password" name="pwd"><br><br>
+    <input type="image" src="catimg.jpg" alt="Submit" width="48" height="48">
+<br><br>
+    <input type="submit" value="Submit"/>
+    
+</body>
+</html>
