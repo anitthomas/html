@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More styles</title>
+    <style type="text/css">
+        a.nodec{text-decoration: none;}
+        ul{margin-left: 20px;}
+        ol{
+            list-style-type:upper-roman;
+        }
+        ol ol{
+            list-style-type: upper-alpha;
+        }
+        ol ol ol{
+            list-style-type: decimal;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>Shopping List for Monday:</u></h1>
+    <ol>
+        <li>Milk</li>
+        <li>Cheese</li>
+        <li>Butter</li>
+        <ol>
+            <li>coffee</li>
+            <li>Tea</li>
+            <li>Bread</li>
+        </ol>
+    </ol>
+    <ol style="list-style-image: url('flowers.jpg'); list-style-position: inside; list-style-type: disc;">
+                <li>Blueberry</li>
+        <li>Strawberry</li>
+        <li>Raspberry <u><b>with mushroom</b></u></li>
+    </ol>
+    <p><em>Go to the</em></p>
+    <a class="nodec" href="https://www.google.com/">google</a>
+</body>
+</html>
