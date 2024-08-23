@@ -13,8 +13,34 @@
 
 <body>
     <script type="text/javascript">
+        var person=prompt("Please enter your name","");
+        if(person==null)
+    {
+        txt="you pressed cancel";
+    }
+    else if (person=="")
+    {
+        txt="Enter name";
+    }
+    else
+    {
+        txt="Hello " +person+ " how are you";
+    }
+    window.alert(txt);
         window.alert("Hello world\njavascript\nprogramming");
         document.writeln("<center><i><h2 style='color:red'>Welcome to CSE!!</h2>")
+            b=5
+            c=2
+            a=b+c
+            alert(a);
+            var s="This is a string"
+            s[1]='H';
+            alert(s)
+            var arr=['one','two','three'];
+            arr[1]='TWO'
+            alert(arr);
+
+
     </script>
     <h1>SJCET</h1>
 </body>
